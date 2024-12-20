@@ -79,8 +79,6 @@ header {
 main {
   container-type: inline-size;
   background-color: #f4f4f4;
-  display: grid;
-  grid-column: 1/-1;
 
   text-align: center;
   padding: 25px;
@@ -100,12 +98,11 @@ main {
 
 #results-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 25px;
 
   article {
     background-color: white;
-    grid-column: 1/-1;
     padding: 20px 50px 0 50px;
     border-top-left-radius: 5px;
     p {
