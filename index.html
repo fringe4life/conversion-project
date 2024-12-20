@@ -6,27 +6,53 @@
   <body>
     <header>
       <h1>Metric/Imperial Unit Conversion</h1>
-      <form id="conversionForm">
-        <input type="number" id="conversion-number" />
+      <form id="conversion-form">
+        <input
+          aria-label="Enter the number you want converted into Length (metric and imperial), Volume (metric and imperial) and Mass (metric and imperial)"
+          type="number"
+          name="conversion-number"
+          id="conversion-number"
+          value="20" />
         <button type="submit">Convert</button>
       </form>
     </header>
     <main>
-      <section id="conversion-results">
-        <article>
+      <section id="results-container">
+        <article class="result">
           <h2>Length (Meter/Feet)</h2>
-          <p></p>
-          <p></p>
+          <p aria-live="polite">Meters to Feet</p>
+          <span>|</span>
+          <p aria-live="polite">Feet to Meters</p>
         </article>
-        <article>
+        <article class="result">
           <h2>Volume (Liters/Gallons)</h2>
-          <p></p>
-          <p></p>
+          <p aria-live="polite">Liters to Gallons</p>
+          <span>|</span>
+          <p aria-live="polite">Gallons to Liters</p>
         </article>
-        <article>
+        <article class="result">
           <h2>Mass (Kilograms/Pounds)</h2>
-          <p></p>
-          <p></p>
+          <p aria-live="polite">Kilograms to Pounds</p>
+          <span>|</span>
+          <p aria-live="polite">Pounds to Kilograms</p>
+        </article>
+        <article class="result">
+          <h2>Length (Meter/Feet)</h2>
+          <p aria-live="polite">Meters to Feet</p>
+          <span>|</span>
+          <p aria-live="polite">Feet to Meters</p>
+        </article>
+        <article class="result">
+          <h2>Volume (Liters/Gallons)</h2>
+          <p aria-live="polite">Liters to Gallons</p>
+          <span>|</span>
+          <p aria-live="polite">Gallons to Liters</p>
+        </article>
+        <article class="result">
+          <h2>Mass (Kilograms/Pounds)</h2>
+          <p aria-live="polite">Kilograms to Pounds</p>
+          <span>|</span>
+          <p aria-live="polite">Pounds to Kilograms</p>
         </article>
       </section>
     </main>

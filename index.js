@@ -1,5 +1,6 @@
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
+
+import { handleConversion } from './elementsFunctions.js'
+import { conversionForm } from './elements.js'
+
+
+conversionForm.addEventListener('submit', handleConversion)
