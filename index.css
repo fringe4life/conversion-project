@@ -149,3 +149,8 @@ main {
     }
   }
 }
+input:focus-within,
+button:focus-within {
+  outline: 2px solid red;
+  outline-offset: 2px;
+}
