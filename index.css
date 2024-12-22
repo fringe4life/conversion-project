@@ -4,14 +4,15 @@ html {
 
 body {
   margin: 0;
+  margin-inline: auto;
+  width: 550px;
+  height: 725px;
+  
   display: flex;
   flex-direction: column;
 }
 
 header {
-  /* display: grid;
-  grid-template-columns: 50px 1fr 120px 1fr 50px;
-  grid-template-rows: repeat(auto-fit, minmax(0, 70px)); */
   display: flex;
   flex-direction: column;
   background-color: #6943ff;
@@ -20,7 +21,7 @@ header {
   margin-block: 0;
   padding-bottom: 15px;
   h1 {
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-family: Inter;
     font-size: 28px;
     font-weight: 800;
@@ -34,11 +35,6 @@ header {
     display: grid;
     /**
     * Totally overcomplicated I know
-    * I'm just trying to create a responsive layout with a header, a form, and a button.
-    * The grid-template-columns and grid-template-rows are placeholders.
-    * The grid-row and grid-column properties are also placeholders.
-    * The gap property is also a placeholder.
-    * You'll need to adjust these values to create a more accurate and responsive layout.
     */
     grid-template-columns: 50px 1fr 120px 1fr 50px;
     grid-template-rows: repeat(auto-fit, minmax(0, 70px));
